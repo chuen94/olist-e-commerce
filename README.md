@@ -20,6 +20,7 @@ The project follows the **Medallion Architecture**:
 * **Total Lifetime Revenue:** $15,843,553.24
 * **Total Orders Processed:** 99,441
 * **Average Order Value (AOV):** $159.33
+  
 **Visual:** The analysis includes a monthly revenue growth chart that identifies seasonality and trends in the Olist marketplace using Seaborn.
 
 ## Machine Learning: RFM Segmentation
