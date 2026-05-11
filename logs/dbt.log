@@ -141,3 +141,18 @@ Runtime Error
 [0m15:48:05.437500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026517033BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265171FF0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026517188F30>]}
 [0m15:48:05.437844 [debug] [MainThread]: Flushing usage events
 [0m15:48:06.212814 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:09:34.498839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001904A104980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190478BEFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190478BF4D0>]}
+
+
+============================== 11:09:34.510653 | 45c13824-560d-47e7-9ade-ed9d01964c84 ==============================
+[0m11:09:34.510653 [info ] [MainThread]: Running with dbt=1.11.8
+[0m11:09:34.511472 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\awang\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select int_location_revenue', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:09:34.512064 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\awang\Documents\Analytic_project\olist_ecommerce\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:09:34.513071 [debug] [MainThread]: Command `dbt run` failed at 11:09:34.512853 after 0.16 seconds
+[0m11:09:34.513752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001904C313BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001904C4DF0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001904C468F30>]}
+[0m11:09:34.514473 [debug] [MainThread]: Flushing usage events
+[0m11:09:35.265924 [debug] [MainThread]: An error was encountered while trying to flush usage events
