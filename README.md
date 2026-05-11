@@ -28,7 +28,8 @@ The project follows the **Medallion Architecture**:
 ## Phase 1: Machine Learning & RFM Segmentation
 **K-Means Clustering model based on RFM (Recency, Frequency, Monetary) features.**
 
-**The Segmentation Logic:** * **Recency:** Calculated as days since the customer's last purchase.
+**The Segmentation Logic:** 
+* **Recency:** Calculated as days since the customer's last purchase.
 * **Frequency:** Total number of orders per unique customer.
 * **Monetary:** Total spending per customer.
 
